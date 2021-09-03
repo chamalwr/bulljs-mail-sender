@@ -1,0 +1,23 @@
+{
+  "name": "bulljs-email-program",
+  "version": "1.0.0",
+  "description": "Sending emails using Redis based BullJS queue",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NodeJS",
+    "BullJS",
+    "Redis",
+    "Queues"
+  ],
+  "author": "chamalwr",
+  "license": "ISC",
+  "dependencies": {
+    "bull": "^3.29.1",
+    "nodemailer": "^6.6.3",
+    "nodemon": "^2.0.12"
+  }
+}
